@@ -2569,7 +2569,7 @@ const Home: React.FC = () => {
                 {
                   icon: <Code className="h-8 w-8" />,
                   title: "Practice Problems",
-                  description: "2000+ coding problems from easy to expert level with detailed solutions",
+                  description: "2000+ problems from easy to expert level with detailed solutions",
                   link: "/problems",
                   color: "from-orange-500 to-red-500",
                   bgColor: "from-orange-500/10 to-red-500/10",
@@ -2577,7 +2577,7 @@ const Home: React.FC = () => {
                 {
                   icon: <Trophy className="h-8 w-8" />,
                   title: "Global Contests",
-                  description: "Weekly contests to compete with programmers worldwide and climb rankings",
+                  description: "Weekly contests to compete with hackers worldwide and climb rankings",
                   link: "/contest",
                   color: "from-yellow-500 to-orange-500",
                   bgColor: "from-yellow-500/10 to-orange-500/10",
@@ -2593,7 +2593,7 @@ const Home: React.FC = () => {
                 {
                   icon: <Users className="h-8 w-8" />,
                   title: "Community",
-                  description: "Connect with developers, share solutions, and learn together",
+                  description: "Connect with hackers, share solutions, and learn together",
                   link: "/top",
                   color: "from-blue-500 to-purple-500",
                   bgColor: "from-blue-500/10 to-purple-500/10",
