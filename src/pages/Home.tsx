@@ -2585,7 +2585,7 @@ const Home: React.FC = () => {
                 {
                   icon: <Play className="h-8 w-8" />,
                   title: "Real-time Battles",
-                  description: "Challenge others in live coding battles with anti-cheat protection",
+                  description: "Challenge others in live battles with anti-cheat protection",
                   link: "/game",
                   color: "from-green-500 to-teal-500",
                   bgColor: "from-green-500/10 to-teal-500/10",
@@ -2662,7 +2662,7 @@ const Home: React.FC = () => {
                 {[
                   {
                     icon: <Github className="h-6 w-6" />,
-                    href: "https://github.com/CodingEnthusiastic",
+                    href: "https://github.com/Divyanshi01615",
                     color: "hover:text-gray-300",
                   },
                   {
@@ -2672,7 +2672,7 @@ const Home: React.FC = () => {
                   },
                   {
                     icon: <Linkedin className="h-6 w-6" />,
-                    href: "https://www.linkedin.com/in/rishabh-shenoy-3b3566286/",
+                    href: "https://www.linkedin.com/in/divyanshi-singh-bhadauriya-47592b283/",
                     color: "hover:text-blue-500",
                   },
                 ].map((social, index) => (
