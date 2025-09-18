@@ -291,7 +291,7 @@ const Contest: React.FC = () => {
             </div>
             <div className="bg-gray-800/80 rounded-xl shadow-2xl p-8 border border-gray-700 max-w-xs mx-auto">
               <p className="text-lg font-bold text-yellow-300 mb-2">Loading Contests...</p>
-              <p className="text-gray-300 mb-4">Please wait while we fetch the latest programming competitions.</p>
+              <p className="text-gray-300 mb-4">Please wait while we fetch the latest competitions.</p>
               <div className="flex justify-center">
                 <div className="animate-spin rounded-full h-10 w-10 border-4 border-yellow-400 border-t-transparent"></div>
               </div>
@@ -321,10 +321,10 @@ const Contest: React.FC = () => {
             </div>
           </div>
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-700 dark:text-white mb-2 sm:mb-4">
-            Programming Contests
+            Bug Bounty Contests
           </h1>
           <p className="text-base sm:text-xl text-gray-600 dark:text-gray-300 max-w-md sm:max-w-2xl mx-auto">
-            Participate in exciting programming competitions and test your skills against other developers
+            Participate in exciting bug bounty competitions and test your skills against other hackers
           </p>
         </div>
 

@@ -2062,7 +2062,7 @@ const Home: React.FC = () => {
                   <h3 className={`text-2xl font-bold mb-2 ${isDark ? "text-white" : "text-gray-900"}`}>
                     Upcoming Contests
                   </h3>
-                  <p className={`${isDark ? "text-gray-300" : "text-gray-600"}`}>Compete with developers worldwide</p>
+                  <p className={`${isDark ? "text-gray-300" : "text-gray-600"}`}>Compete with hackers worldwide</p>
                 </div>
                 <Link to="/contest" className="text-blue-600 hover:text-blue-700 text-sm font-medium hover:underline">
                   View all
@@ -2157,48 +2157,48 @@ const Home: React.FC = () => {
                 Master essential skills with our curated learning paths and comprehensive tutorials
               </p>
             </div>
-
+          
             {/* Mobile: Show cards vertically, Desktop: Horizontal scroll */}
             <div className="block sm:hidden">
               <div className="space-y-4">
                 {[
                   {
-                    title: "Data Structures & Algorithms",
-                    description: "Master the fundamentals of DSA with comprehensive tutorials and practice problems",
-                    link: "https://www.youtube.com/watch?v=y3OOaXrFy-Q&list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01",
-                    image: "https://tse3.mm.bing.net/th/id/OIP.IodRARzhZ9CBPYBS2_9LEgHaEK?pid=Api&P=0&h=180",
+                    title: "Computer & Networking Fundamentals",
+                    description: "Learn how computers communicate and how networks are structured to understand attack surfaces.",
+                    link: "https://youtu.be/qiQR5rTSshw?si=YM78m2X5Bat9TnQm",
+                   // image: "https://tse3.mm.bing.net/th/id/OIP.IodRARzhZ9CBPYBS2_9LEgHaEK?pid=Api&P=0&h=180",
                     color: "from-blue-500 to-indigo-600",
                     icon: "🧮"
                   },
                   {
-                    title: "System Design",
-                    description: "Learn how to design scalable systems and architect robust applications",
-                    link: "https://www.youtube.com/watch?v=AK0hu0Zxua4&list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT",
-                    image: "https://tse2.mm.bing.net/th/id/OIP.0iCWYNiceXNXodc6dWCZewHaDe?pid=Api&P=0&h=180",
+                    title: "Security Foundations",
+                    description: "Grasp core security principles like encryption, authentication, and the CIA triad.",
+                    link: "https://youtu.be/EDzjFeFHRPY?si=PUiSHI1u-6IMCFGr",
+                    //image: "https://tse2.mm.bing.net/th/id/OIP.0iCWYNiceXNXodc6dWCZewHaDe?pid=Api&P=0&h=180",
                     color: "from-green-500 to-emerald-600",
                     icon: "🏗️"
                   },
                   {
-                    title: "Full Stack Development",
-                    description: "Build complete web applications from frontend to backend with modern technologies",
-                    link: "https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&pp=0gcJCV8EOCosWNin",
-                    image: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBenW1M30gqWfrb8bLNydwUJiebEA",
+                    title: "Linux & Scripting Skills",
+                    description: "Gain command-line and automation skills using Linux, Python, or Bash for penetration tasks.",
+                    link: "https://youtu.be/J8odohybOIM?si=FhaySHWW_UrQpbU9",
+                    ///image: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBenW1M30gqWfrb8bLNydwUJiebEA",
                     color: "from-purple-500 to-violet-600",
                     icon: "💻"
                   },
                   {
-                    title: "Spring Boot",
-                    description: "Master Java Spring Boot framework for enterprise application development",
-                    link: "https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF",
-                    image: "https://i.ytimg.com/vi/Zxwq3aW9ctU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBPvSBVpeCabK8qzRMBY6XNM4VRSw",
+                    title: "Reconnaissance & Footprinting",
+                    description: "Gather information about targets through OSINT and network scanning.",
+                    link: "https://youtu.be/ZE-bq-zWJ5Y?si=kpaT_eMTbsZOovjA",
+                    //image: "https://i.ytimg.com/vi/Zxwq3aW9ctU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBPvSBVpeCabK8qzRMBY6XNM4VRSw",
                     color: "from-orange-500 to-red-600",
                     icon: "🌱"
                   },
                   {
-                    title: "Generative AI",
-                    description: "Explore the cutting-edge world of AI and machine learning technologies",
-                    link: "https://www.youtube.com/watch?v=WOyZid8OkkI&list=PLd7PleJR_EFfRYiLdagOsv4FczMl1Cxt_",
-                    image: "https://i.ytimg.com/vi/WOyZid8OkkI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAr8shMX8h7efRCCis0s5kBP0Iugw",
+                    title: "Vulnerability Analysis",
+                    description: "Identify and assess weaknesses using scanners and manual checks.",
+                    link: "https://youtu.be/QXSyH4lx6Sk?si=xNp085QzrNshmc9G",
+                    //image: "https://i.ytimg.com/vi/WOyZid8OkkI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAr8shMX8h7efRCCis0s5kBP0Iugw",
                     color: "from-cyan-500 to-blue-600",
                     icon: "🤖"
                   }
@@ -2254,42 +2254,42 @@ const Home: React.FC = () => {
               <div className="flex gap-6 pb-4" style={{ width: "max-content" }}>
                 {[
                   {
-                    title: "Data Structures & Algorithms",
-                    description: "Master the fundamentals of DSA with comprehensive tutorials and practice problems",
-                    link: "https://www.youtube.com/watch?v=y3OOaXrFy-Q&list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01",
-                    image: "https://tse3.mm.bing.net/th/id/OIP.IodRARzhZ9CBPYBS2_9LEgHaEK?pid=Api&P=0&h=180",
+                    title: "Computer & Networking Fundamentals",
+                    description: "Learn how computers communicate and how networks are structured to understand attack surfaces.",
+                    link: "https://youtu.be/qiQR5rTSshw?si=YM78m2X5Bat9TnQm",
+                   // image: "https://tse3.mm.bing.net/th/id/OIP.IodRARzhZ9CBPYBS2_9LEgHaEK?pid=Api&P=0&h=180",
                     color: "from-blue-500 to-indigo-600",
                     icon: "🧮"
                   },
                   {
-                    title: "System Design",
-                    description: "Learn how to design scalable systems and architect robust applications",
-                    link: "https://www.youtube.com/watch?v=AK0hu0Zxua4&list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT",
-                    image: "https://tse2.mm.bing.net/th/id/OIP.0iCWYNiceXNXodc6dWCZewHaDe?pid=Api&P=0&h=180",
+                    title: "Security Foundations",
+                    description: "Grasp core security principles like encryption, authentication, and the CIA triad.",
+                    link: "https://youtu.be/EDzjFeFHRPY?si=PUiSHI1u-6IMCFGr",
+                    //image: "https://tse2.mm.bing.net/th/id/OIP.0iCWYNiceXNXodc6dWCZewHaDe?pid=Api&P=0&h=180",
                     color: "from-green-500 to-emerald-600",
                     icon: "🏗️"
                   },
                   {
-                    title: "Full Stack Development",
-                    description: "Build complete web applications from frontend to backend with modern technologies",
-                    link: "https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&pp=0gcJCV8EOCosWNin",
-                    image: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBenW1M30gqWfrb8bLNydwUJiebEA",
+                    title: "Linux & Scripting Skills",
+                    description: "Gain command-line and automation skills using Linux, Python, or Bash for penetration tasks.",
+                    link: "https://youtu.be/J8odohybOIM?si=FhaySHWW_UrQpbU9",
+                    ///image: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBenW1M30gqWfrb8bLNydwUJiebEA",
                     color: "from-purple-500 to-violet-600",
                     icon: "💻"
                   },
                   {
-                    title: "Spring Boot",
-                    description: "Master Java Spring Boot framework for enterprise application development",
-                    link: "https://www.youtube.com/watch?v=Zxwq3aW9ctU&list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF",
-                    image: "https://i.ytimg.com/vi/Zxwq3aW9ctU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBPvSBVpeCabK8qzRMBY6XNM4VRSw",
+                    title: "Reconnaissance & Footprinting",
+                    description: "Gather information about targets through OSINT and network scanning.",
+                    link: "https://youtu.be/ZE-bq-zWJ5Y?si=kpaT_eMTbsZOovjA",
+                    //image: "https://i.ytimg.com/vi/Zxwq3aW9ctU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBPvSBVpeCabK8qzRMBY6XNM4VRSw",
                     color: "from-orange-500 to-red-600",
                     icon: "🌱"
                   },
                   {
-                    title: "Generative AI",
-                    description: "Explore the cutting-edge world of AI and machine learning technologies",
-                    link: "https://www.youtube.com/watch?v=WOyZid8OkkI&list=PLd7PleJR_EFfRYiLdagOsv4FczMl1Cxt_",
-                    image: "https://i.ytimg.com/vi/WOyZid8OkkI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAr8shMX8h7efRCCis0s5kBP0Iugw",
+                    title: "Vulnerability Analysis",
+                    description: "Identify and assess weaknesses using scanners and manual checks.",
+                    link: "https://youtu.be/QXSyH4lx6Sk?si=xNp085QzrNshmc9G",
+                    //image: "https://i.ytimg.com/vi/WOyZid8OkkI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAr8shMX8h7efRCCis0s5kBP0Iugw",
                     color: "from-cyan-500 to-blue-600",
                     icon: "🤖"
                   }

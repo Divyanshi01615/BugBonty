@@ -68,12 +68,12 @@ const Home: React.FC = () => {
     {
       icon: <Code className="h-6 w-6" />,
       title: "1000+ Problems",
-      description: "Curated coding challenges from top companies"
+      description: "Curated bonty challenges from top companies"
     },
     {
       icon: <Trophy className="h-6 w-6" />,
       title: "Live Contests",
-      description: "Compete with developers worldwide"
+      description: "Compete with hackerss worldwide"
     },
     {
       icon: <Users className="h-6 w-6" />,
@@ -100,7 +100,7 @@ const Home: React.FC = () => {
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-            Loading CodeThrone...
+            Loading Kaavach AI...
           </p>
         </div>
       </div>
