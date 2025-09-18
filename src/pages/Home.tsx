@@ -261,7 +261,7 @@ const Home: React.FC = () => {
 
   // ...existing code...
   useEffect(() => {
-    const fullText = "Ethical Hacking";
+    const fullText = "AI Powered Bug Bonty Platform";
     let i = 1;
     let timeout: NodeJS.Timeout;
     let interval: NodeJS.Timeout;
@@ -1463,9 +1463,9 @@ const Home: React.FC = () => {
             {/* Left Content */}
             <div className="z-10 space-y-8 card-animate-in">
               <div className="space-y-3">
-                <h1 className={`text-5xl md:text-8xl font-bold text-white leading-[1.2] relative elegant-float ${getResponsiveSettings().gapClass}`}>
+                <h1 className={`text-5xl md:text-6xl font-bold text-white leading-[1.2] relative elegant-float ${getResponsiveSettings().gapClass}`}>
                   <span className="relative inline-block premium-text-wave">
-                    Master
+                    INDIA'S First
                   </span>
                   <span className="block pb-3 relative overflow-hidden leading-[1.25]">
                     <span className="bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent gradient-text-shift font-extrabold relative">
@@ -1473,8 +1473,8 @@ const Home: React.FC = () => {
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent text-shimmer"></div>
                     </span>
                   </span>
-                  <span className="block text-4xl md:text-5xl mt-2 relative">
-                    <span className="premium-text-wave">Like Never Before</span>
+                  <span className="block text-4xl md:text-3xl mt-2 relative">
+                    <span className="premium-text-wave">AI-Powered Security & Freelance Hub</span>
                   </span>
                 </h1>
 
